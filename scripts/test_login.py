@@ -26,11 +26,11 @@ def get_login_data():
 
 class Testlogin():
 
-    def setup_class(self):
+    def setup(self):
         self.login=Page(get_driver())
 
 
-    def teardown_class(self):
+    def teardown(self):
         self.login.driver.quit()
 
     @pytest.mark.parametrize("username,password",get_login_data())
