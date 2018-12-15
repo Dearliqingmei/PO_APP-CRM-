@@ -18,6 +18,7 @@ class Readlogin():
             data_login = yaml.load(f)
             return data_login
 
+
     # 第二种
     def read_login1(self, filename):
         list_login = []

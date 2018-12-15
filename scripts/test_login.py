@@ -37,7 +37,7 @@ class Testlogin():
     def test_login(self,username,password):
         self.login.page_send_username(username)
         self.login.page_send_password(password)
-        # self.login.page_click()
+        self.login.page_click()
         try:#（断言）
             assert self.login.page_on_logintxt("业绩目标")
             print("登陆成功！")
