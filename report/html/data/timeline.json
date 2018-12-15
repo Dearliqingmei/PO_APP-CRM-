@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Xiyang",
+    "children" : [ {
+      "name" : "10220-MainThread",
+      "children" : [ {
+        "name" : "Testlogin.test_login[15877935870-vjdvjjvvjjv]",
+        "uid" : "2a2b29f3f972a4c7",
+        "parentUid" : "630da893bb4ed5b99e5ab1b83eea9bb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544692413498,
+          "stop" : 1544692523929,
+          "duration" : 110431
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Testlogin.test_login[15877935567-effs]",
+        "uid" : "ab20932683503524",
+        "parentUid" : "630da893bb4ed5b99e5ab1b83eea9bb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544692523957,
+          "stop" : 1544692613532,
+          "duration" : 89575
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Testlogin.test_login[15877935845-vjdvjfsfs]",
+        "uid" : "6049a76326850aaf",
+        "parentUid" : "630da893bb4ed5b99e5ab1b83eea9bb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544692613538,
+          "stop" : 1544692709865,
+          "duration" : 96327
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "630da893bb4ed5b99e5ab1b83eea9bb6"
+    } ],
+    "uid" : "c901aab58896df8333e099131d36a321"
+  } ]
+}

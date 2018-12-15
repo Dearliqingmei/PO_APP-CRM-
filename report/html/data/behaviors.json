@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Testlogin.test_login[15877935870-vjdvjjvvjjv]",
+    "uid" : "2a2b29f3f972a4c7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1544692413498,
+      "stop" : 1544692523929,
+      "duration" : 110431
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Testlogin.test_login[15877935567-effs]",
+    "uid" : "ab20932683503524",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1544692523957,
+      "stop" : 1544692613532,
+      "duration" : 89575
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Testlogin.test_login[15877935845-vjdvjfsfs]",
+    "uid" : "6049a76326850aaf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1544692613538,
+      "stop" : 1544692709865,
+      "duration" : 96327
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}
