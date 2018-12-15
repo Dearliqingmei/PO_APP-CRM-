@@ -46,7 +46,7 @@ class Base(object):
     def base_get_screen(self):#截图
          # self.base_screen = sys._getframe(0).f_code.co_name
          self.path_screen = os.getcwd() + os.sep + "screenhot" + os.sep+("%s.jpg"%time.strftime("%Y-%m-%d %H_%M_%S"))
-         return self.driver.get_screenshot_as_file(self.path_screen)
+         self.driver.get_screenshot_as_file(self.path_screen)
 
 
 
